@@ -76,9 +76,9 @@ export default function HomePage() {
 
           {/* <ListVideos videos={videos} /> */}
 
-          <Promotion products={products} />
+          {/* <Promotion products={products} />
         
-          <Exclusive products={products} />
+          <Exclusive products={products} /> */}
 
           {/* <FooterApp />*/}
           <Footer /> 

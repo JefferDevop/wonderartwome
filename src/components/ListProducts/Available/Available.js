@@ -134,8 +134,8 @@ export function Available(props) {
                     <CardImg alt="Card image cap" src={product.image_alterna} />
                   </Link>
                 )}
-                <h5>{product.name}</h5>
-                <h6> $ {format(parseInt(product.price))}</h6>
+                <p>{product.name}</p>
+                <h6> $ {format(parseInt(product.price1))}</h6>
               </div>
             ) : (
               <div className={styles.soldout}>
